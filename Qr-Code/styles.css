@@ -6,17 +6,18 @@ body {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .Container {
   width: 100vw; /* 100% of viewport width */
   height: 100vh; /* 100% of viewport height */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   /* Other styles like position, padding, margin, etc. can be added as needed */
@@ -26,6 +27,8 @@ p {
   border-radius: 15px;
   background-color: whitesmoke;
   width: 20vw;
+  height: auto;
+  /* height: 60vh; */
   /* align-items: center; align horizontally the flex items inside the flex container*/
   text-align: center; /* align the text/images horizontally within the flex items*/
   padding: 20px;
@@ -34,14 +37,15 @@ p {
 
 .Card-Container {
   background-color: lightskyblue;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   display: flex;
   width: 85vw;
   height: 85vh;
+  flex-wrap: wrap;
 }
 
 .qr-code {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
