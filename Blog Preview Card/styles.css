@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(255, 226, 58);
+  margin: 0;
+}
+
+.Main-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Card {
+  border-radius: 18px;
+  background-color: whitesmoke;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Illustration {
+  width: 100%;
+  height: auto;
+  max-width: 160px;
+  max-height: 80px;
+  border-radius: 15px;
+}
