@@ -14,16 +14,72 @@ body {
 .Card {
   border-radius: 18px;
   background-color: whitesmoke;
-  height: auto;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  width: 15%;
+  height: auto;
+  padding: 15px;
+  box-shadow: 4px 4px;
+  border: 1px solid;
+}
+
+.Card-Image{
+  width: 100%;
+  text-align: justify;
 }
 
 .Illustration {
   width: 100%;
   height: auto;
-  max-width: 160px;
-  max-height: 80px;
   border-radius: 15px;
+}
+
+.Card-content{
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.Card-content > h1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Card-content > p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Tags{
+  display: inline-block;
+  background-color: orange;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 4px 8px 4px 8px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Description{
+  font-size: 12px;
+  font-weight: 200;
+  color: grey;
+}
+
+.Footer{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Avatar{
+  border: 1px solid;
+  border-radius: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.Avatar-Description{
+  font-size: 14px;
+  font-weight: bolder;
 }
