@@ -1,0 +1,86 @@
+body {
+  background-color: #141414;
+  margin: 0px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Card {
+  background-color: rgb(35, 35, 35);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  max-width: 250px;
+  max-height: 800px;
+  padding: 30px;
+}
+
+.Avatar {
+  text-align: center;
+  width: 90%;
+}
+
+.Profile {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+}
+
+.Description {
+  text-align: center;
+  width: 90%;
+}
+
+.Profile-Name {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.Profile-Location {
+  font-size: 12px;
+  color: yellow;
+  margin-top: 5px;
+}
+
+.Profile-Description {
+  font-size: 12px;
+}
+
+.Links {
+  width: 90%;
+  /* display: block; */
+  text-align: center;
+}
+
+.Links > a {
+  display: block;
+  background-color: #323232;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  text-decoration: none; /* Remove underline */
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* .Links > a:visited {
+  color: red;
+} */
+
+.Links > a:hover {
+  color: gold;
+}
