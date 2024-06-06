@@ -33,6 +33,7 @@ body {
   font-weight: bold;
   line-height: 1.5;
   color: #7f7871;
+  text-align: justify;
 }
 
 .Card-Menu > h1 {
@@ -104,6 +105,7 @@ body {
 
 .Card-Instructions > ol {
   padding-left: 1em;
+  text-align: justify;
 }
 
 .Card-Instructions > ol > li {
@@ -115,4 +117,34 @@ body {
 .Card-Nutrition {
   width: 100%;
   height: auto;
+}
+
+.Card-Nutrition > h1 {
+  color: #a57749;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.Card-Nutrition > p {
+  color: #7f7871;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.Card-Nutrition > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  /* used because using .Card-Nutrition > table > tbody etc will be too long */
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-size: 11px;
+  color: #7f7871;
+}
+
+.Card-Nutrition-Value {
+  font-weight: bold;
+  color: #7b3e19;
 }
