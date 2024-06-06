@@ -10,6 +10,12 @@ body {
   align-items: center;
 }
 
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Card {
   display: flex;
   justify-content: center;
