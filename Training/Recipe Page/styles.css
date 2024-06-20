@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  background-color: #f3e5d8;
+  font-family: sans-serif;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  flex-wrap: wrap;
+  margin: 10% 0px 10% 0px;
+}
+
+.Card-Menu {
+  text-align: left;
+}
+
+.Card-Menu > p {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #7f7871;
+  text-align: justify;
+}
+
+.Card-Menu > h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Card-Image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.Card-Preparation {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #fff7fc;
+  padding: 10px 0px 10px 5%;
+}
+
+.Card-Preparation > h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0px;
+  color: #a57749;
+}
+
+.Card-Preparation > li {
+  font-size: 11px;
+  line-height: 2;
+  color: #7f7871;
+}
+
+.Card-Ingredients {
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+.Card-Ingredients > h1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a57749;
+}
+
+.Card-Ingredients > li {
+  font-size: 11px;
+  line-height: 2;
+  color: #7f7871;
+}
+
+.Card-Ingredients > hr {
+  color: #7f7871;
+  height: 0.5px;
+}
+
+.Card-Instructions {
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+.Card-Instructions > h1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a57749;
+}
+
+.Card-Instructions > ol {
+  padding-left: 1em;
+  text-align: justify;
+}
+
+.Card-Instructions > ol > li {
+  font-size: 11px;
+  line-height: 2;
+  color: #7f7871;
+}
+
+.Card-Nutrition {
+  width: 100%;
+  height: auto;
+}
+
+.Card-Nutrition > h1 {
+  color: #a57749;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.Card-Nutrition > p {
+  color: #7f7871;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.Card-Nutrition > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  /* used because using .Card-Nutrition > table > tbody etc will be too long */
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-size: 11px;
+  color: #7f7871;
+}
+
+.Card-Nutrition-Value {
+  font-weight: bold;
+  color: #7b3e19;
+}

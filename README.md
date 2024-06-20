@@ -1,1 +1,1 @@
-This is a test project to learn HTML & CSS in a simple way, i am currently learning it from "frontendmentor"
+This is a test project to learn HTML & CSS in a simple way, i am currently learning it from "frontendmentor". All the components in Ideas are not my mine and credit belongs to the original owner, i put it in my repo for easy access

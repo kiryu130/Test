@@ -1,0 +1,1 @@
+All components inside this repository belongs to "https://github.com/parthwebdev" i only copied the code and put it in my repository for easy access
